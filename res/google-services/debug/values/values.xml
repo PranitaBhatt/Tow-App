@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">28586649415-eq2frmn2jhsnsqa8j281h9a0iniupvsq.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">28586649415</string>
+    <string name="google_api_key" translatable="false">AIzaSyClerQF-FbKhJbEKnlgG432yb2EKEPZIag</string>
+    <string name="google_app_id" translatable="false">1:28586649415:android:deeb0a6e40952f09ff4e62</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyClerQF-FbKhJbEKnlgG432yb2EKEPZIag</string>
+    <string name="google_storage_bucket" translatable="false">towapp-1234.appspot.com</string>
+    <string name="project_id" translatable="false">towapp-1234</string>
+</resources>

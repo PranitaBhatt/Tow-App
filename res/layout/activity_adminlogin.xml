@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminlogin"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Login"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/altv"
+        ></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aed1"
+        android:layout_below="@+id/altv"
+        android:layout_marginTop="30dp"
+        android:hint="Username"
+        android:inputType="text" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aed2"
+        android:hint="Password"
+        android:layout_below="@+id/aed1"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"></EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnalogin"
+        android:layout_below="@+id/aed2"
+        android:layout_centerHorizontal="true"
+        android:text="Login"></Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account?"
+        android:id="@+id/atv2"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/btnalogin"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Aregisternowbtn"
+        android:textStyle="bold"
+        android:text="Register Now"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/atv2"
+        android:layout_centerHorizontal="true"></TextView>
+</RelativeLayout>
